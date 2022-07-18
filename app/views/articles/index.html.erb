@@ -1,0 +1,18 @@
+<br>
+<br>
+<h1>Articles</h1>
+<div class="container-articles">
+  <% @articles.each do |article| %>
+  <div class="card-article border rounded">
+  <img src="../assets/images/Gemfile.jpeg">
+  <div class="card-article-text">
+    <h2><%= article.title %></h2>
+    <p><%= article.content %></p>
+  </div>
+  <%= link_to 'Read', article_path(article), class: 'btn-red' %>
+  </div>
+  <% end %>
+
+</div>
+<br>
+<br>

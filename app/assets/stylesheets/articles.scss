@@ -1,0 +1,40 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+h1 {
+  margin-bottom: 1em;
+}
+.list-element-clean {
+  list-style: none;
+}
+
+.list-element-clean > *+* {
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+
+.article-link {
+  color: red;
+  text-decoration: none;
+}
+
+.card-article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em .8em;
+
+}
+
+.btn-red {
+  display: block;
+  padding: .6em 1.3em;
+  text-decoration: none;
+  border-radius: 2em;
+}
+
+.btn-red:hover {
+background-color: rgba(225, 123, 123, 0.794);
+}

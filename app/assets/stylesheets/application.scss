@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap/scss/bootstrap";
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+.Navbar-inline {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3em 1.6em;
+  background-color: rgb(179, 179, 179);
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.link {
+  color: red
+}

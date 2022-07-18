@@ -11,6 +11,12 @@
   </head>
 
   <body>
-    <%= yield %>
+    <nav class="Navbar-inline">
+      <h3 class='navbar--logo'><%= link_to 'Wikinomous', articles_path %></h3>
+      <p><%= link_to 'Create new article', new_article_path %></p>
+    </nav>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
